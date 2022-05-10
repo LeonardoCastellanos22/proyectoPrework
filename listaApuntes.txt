@@ -1,0 +1,87 @@
+ls va a listar archivos en la carpeta (muestra archivos dentrod e la carpeta)
+
+pwd --> ruta donde se está trabajando
+
+cd ---> change directory (mover sobre las carpetas)
+
+cd .. ---> moverse al anterior
+
+Carpeta "/" ---> directorio raiz o root (carpetas que no se pueden borrar)
+
+cd mnt ---> archivos de windows --> luego cd c
+
+cd ~ --> lleva al directorio home
+
+mkdir --> crear carpeta sin permisos de administrador
+
+sudo mkdir -->  carpeta con permisos de administrador
+
+touch --> creacion de archivo con nombre y extensión
+
+example
+
+touch archivo_a_crear.xxx
+
+mv --> mover archivos a otras carpetas
+
+example
+
+mv nombre_archivo_a_mover.xxx carpeta_a_mover
+
+
+code . --> abre visual studio code para visualizar
+
+cat --> contenido de un archivo, lo imprime en consola
+
+example
+
+cat index.html
+
+man cat --> como usar el comando cat
+
+sudo apt-get update --> sistemas de gestores de paquetes, conecta al gestor de dependencias y pregunta si existen actualizaciones--> solo funciona con permisos de administrador ("sudo")
+
+sudo apt-get upgrade --> instalar las actualizaciones
+
+sudo apt install nodejs ---> instala nodejs
+
+windows + R ---> \\wsl$ ---> lleva a la carpeta de linux creada
+
+sudo apt install nodejs (instala nodejs ya que es una dependencia)
+
+node -v (version)
+
+sudo apt install npm (manejador de paquetes de nodejs)
+
+Manejador de paquetes en las dependencias
+
+npm ---> herramienta para descargar cosas, los instala por siempre
+
+clear --> limpiar terminal
+
+npx --> ejecutar paquetes desde el internet, sin mantenerlos (solo se usa y no se guarda)
+npx, se usa bastante con instaladores
+
+npx create-react-app test --> libreria declarativa de java script para hacer interfaces de usuario
+
+rm -rf nombre_carpeta --> elimina la carpeta y los objetos dentro de la carpeta
+
+rm nombre_archivo.xxx --> elimina archivo
+
+npm start --> ejecuta proyecto react js (ejecuta el servidor), es posible ejecutarlo desde la terminal
+
+react js --> ejecuta el servidor
+
+sudo chown -R leonardo ~/personalprojects --> owner, permisos para editar
+
+rm -d carpeta_vacia --> borra carpeta vacia
+
+ssh-keygen --> generar una llave ssh, login con github para la terminal
+
+ssh-keygen -t rsa -bb 4096 -C "email generado"---> 4096 cantidad de bits, generacion de llave para login en github
+
+Genera clave pública para enlazar github y la terminal
+
+ssh agent --> gestor para usar las claves--> eval "$(ssh-agent -s)"--> evalua que tenemos un agente corriendo
+
+ssh-copy-id --> copia la llavepública del correo
