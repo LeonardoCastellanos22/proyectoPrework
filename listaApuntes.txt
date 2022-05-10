@@ -85,3 +85,17 @@ Genera clave pública para enlazar github y la terminal
 ssh agent --> gestor para usar las claves--> eval "$(ssh-agent -s)"--> evalua que tenemos un agente corriendo
 
 ssh-copy-id --> copia la llavepública del correo
+
+echo --> crea archivos (?)
+
+git init --> iniciamos repositorio vacio
+
+git add . --> añade todos los archivos al repositorio (los que están en la carpetas)
+
+git archivo.html README.txt --> agrega los dos archivos específicos en el repositorio
+
+git commit -m "first commit" --> recibe los archivos en un primer commit, se tiene en local
+
+git remote add origin https://github.com/LeonardoCastellanos22/proyectoPrework.git ---> se envía del local a la cloud
+
+
